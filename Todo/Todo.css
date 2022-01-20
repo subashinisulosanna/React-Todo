@@ -1,0 +1,67 @@
+
+@media screen and (min-width: 600px) {
+  .Todos {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+ .Todos {
+    font-size: 10px;
+  }
+}
+.Todos{
+   
+     
+    margin-top: 40px;
+    
+   
+}
+.Todo li:hover{
+    color: aqua;
+    font-weight: bold;
+}
+
+li .over{
+    width: 200px;
+}
+
+.Todos ol,li{
+    list-style: none;
+    color:aliceblue;
+}
+.Todo{
+    margin-top: 10px;
+    text-align: left;
+    align-items: left;
+    
+}
+.Todo li{
+    color: aqua;
+}
+
+.Todo:hover{
+    /* background-color: rgb(32, 72, 118); */
+    cursor: pointer;
+  
+    
+    
+}
+.list{
+    color: aqua;
+}
+.list-hover:hover{
+    background-color:rgb(32, 72, 118); 
+    color: rgb(26, 103, 94);
+    font-weight: bold;
+}
+.Todo .oneClick{
+    
+    text-decoration: line-through;
+    color: chartreuse;
+    
+
+}
+.Todo .noClick{
+    color: aliceblue;
+}

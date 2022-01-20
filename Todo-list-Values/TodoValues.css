@@ -1,0 +1,19 @@
+.List{
+    color: aqua;
+    margin-top: 30px;
+}
+.todoInput{
+    color: bisque;
+    border-color: aqua;
+    margin-right: 20px;
+    height: 25px;
+    width: 200px;
+}
+.todoSubmit{
+     color: rgb(198, 90, 90);
+     font-size: 20px;
+    border-color: aqua;
+    margin-right: 20px;
+    height: 30px;
+    width: 50px;
+}
